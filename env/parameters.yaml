@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:whalerazor/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dconde@cloudbees.com
+  token: vault:whalerazor/pipelineUser:token
+  username: daveconde
+prow:
+  hmacToken: vault:whalerazor/prow:hmacToken
